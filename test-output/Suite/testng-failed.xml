@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="testPackage.Listeners"/>
+    <listener class-name="resources.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="Test Validating Title(failed)">
+    <classes>
+      <class name="testPackage.validateTitle">
+        <methods>
+          <include name="validateTitleTest"/>
+          <include name="initializeTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testPackage.validateTitle -->
+    </classes>
+  </test> <!-- Test Validating Title(failed) -->
+</suite> <!-- Failed suite [Suite] -->

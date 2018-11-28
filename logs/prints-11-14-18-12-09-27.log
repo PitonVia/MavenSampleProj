@@ -1,0 +1,6 @@
+11:49:20.634 [main] INFO  resources.BaseClass - Validating title: FEATURED COURSES
+12:07:06.277 [main] INFO  resources.BaseClass - WebDriver is initialized
+12:07:14.554 [main] INFO  resources.BaseClass - Navigating to landing page
+12:07:16.680 [main] INFO  resources.BaseClass - removing a subscription pop-up by clicking 'no thanks' button
+12:07:16.720 [main] INFO  resources.BaseClass - Validating title: FEATURED COURSES
+12:09:18.695 [main] INFO  resources.BaseClass - WebDriver is initialized

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  
+  <!-- to enable screenshot taking for all failed tests -->
+  <listeners>
+  	<listener class-name="testPackage.Listeners"/>
+  </listeners>
+  
+  	<listeners>
+		<listener class-name="testPackage.Listeners"/>  <!-- for Listeners -->
+		<listener class-name="resources.ExtentReporterNG"/>  <!-- for extent reports -->
+	</listeners>
+  
+   <!-- each class need to be wrapped around separate test tags 
+   		so that @AfterTest can run for each class and close browsers -->	
+  <test thread-count="5" name="Test Validating Login">
+    <classes>
+      <class name="testPackage.validateLogin"/>
+    </classes>
+  </test>
+  
+  <test thread-count="5" name="Validating NavBar">
+    <classes>
+      <class name="testPackage.validateNavBar"/>
+    </classes>
+  </test>
+  
+  <test thread-count="5" name="Test Validating Title">
+    <classes>
+      <class name="testPackage.validateTitle"/>
+    </classes>
+  </test>
+          
+</suite> <!-- Suite -->

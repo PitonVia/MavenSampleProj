@@ -1,0 +1,69 @@
+11-14-18-12-11-26 [main] INFO  resources.BaseClass - Validating title: FEATURED COURSES
+11-14-18-12-54-27 [main] INFO  resources.BaseClass - WebDriver is initialized
+11-14-18-12-54-35 [main] INFO  resources.BaseClass - Navigating to landing page
+11-14-18-12-54-38 [main] INFO  resources.BaseClass - removing a subscription pop-up by clicking 'no thanks' button
+11-14-18-13-00-03 [main] INFO  resources.BaseClass - WebDriver is initialized
+11-14-18-13-00-14 [main] INFO  resources.BaseClass - Navigating to landing page
+11-14-18-13-00-16 [main] INFO  resources.BaseClass - removing a subscription pop-up by clicking 'no thanks' button
+11-14-18-13-08-19 [main] INFO  resources.BaseClass - WebDriver is initialized
+11-14-18-13-08-26 [main] INFO  resources.BaseClass - Navigating to landing page
+11-14-18-13-08-29 [main] INFO  resources.BaseClass - removing a subscription pop-up by clicking 'no thanks' button
+11-14-18-13-30-08 [main] INFO  resources.BaseClass - WebDriver is initialized
+11-14-18-13-30-17 [main] INFO  resources.BaseClass - Navigating to landing page
+11-14-18-13-30-19 [main] INFO  resources.BaseClass - removing a subscription pop-up by clicking 'no thanks' button
+11-14-18-13-30-19 [main] INFO  resources.BaseClass - Test case failed
+11-14-18-13-34-14 [main] INFO  resources.BaseClass - WebDriver is initialized
+11-14-18-13-34-25 [main] INFO  resources.BaseClass - Navigating to landing page
+11-14-18-13-34-26 [main] INFO  resources.BaseClass - removing a subscription pop-up by clicking 'no thanks' button
+11-14-18-13-49-07 [main] INFO  resources.BaseClass - WebDriver is initialized
+11-14-18-13-49-16 [main] INFO  resources.BaseClass - Navigating to landing page
+11-14-18-13-49-17 [main] INFO  resources.BaseClass - removing a subscription pop-up by clicking 'no thanks' button
+11-14-18-13-49-18 [main] INFO  resources.BaseClass - Validating title: FEATURED COURSES
+11-14-18-17-03-28 [main] INFO  resources.BaseClass - WebDriver is initialized
+11-14-18-17-03-40 [main] INFO  resources.BaseClass - Navigating to landing page
+11-14-18-17-03-40 [main] INFO  resources.BaseClass - removing a subscription pop-up by clicking 'no thanks' button
+11-14-18-17-03-40 [main] INFO  resources.BaseClass - Test case failed
+11-14-18-17-10-38 [main] INFO  resources.BaseClass - WebDriver is initialized
+11-14-18-17-10-56 [main] INFO  resources.BaseClass - Navigating to landing page
+11-14-18-17-10-56 [main] INFO  resources.BaseClass - removing a subscription pop-up by clicking 'no thanks' button
+11-14-18-17-10-56 [main] INFO  resources.BaseClass - Test case failed
+11-21-18-15-02-04 [main] INFO  resources.BaseClass - WebDriver is initialized
+11-21-18-15-02-33 [main] INFO  resources.BaseClass - Navigating to landing page
+11-21-18-15-02-40 [main] INFO  resources.BaseClass - removing a subscription pop-up by clicking 'no thanks' button
+11-21-18-15-05-30 [main] INFO  resources.BaseClass - WebDriver is initialized
+11-21-18-15-05-38 [main] INFO  resources.BaseClass - Navigating to landing page
+11-21-18-15-05-45 [main] INFO  resources.BaseClass - removing a subscription pop-up by clicking 'no thanks' button
+11-21-18-15-08-47 [main] INFO  resources.BaseClass - WebDriver is initialized
+11-21-18-15-08-56 [main] INFO  resources.BaseClass - Navigating to landing page
+11-21-18-15-08-59 [main] INFO  resources.BaseClass - removing a subscription pop-up by clicking 'no thanks' button
+11-21-18-15-11-22 [main] INFO  resources.BaseClass - removing a subscription pop-up by clicking 'no thanks' button
+11-21-18-15-15-15 [main] INFO  resources.BaseClass - removing a subscription pop-up by clicking 'no thanks' button
+11-21-18-15-15-42 [main] ERROR resources.BaseClass - pop-up message was not displayed no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(),'NO THANKS')]"}
+  (Session info: chrome=72.0.3610.2)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-R8M5NJD', ip: '192.168.101.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\Pitoshka\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:49588}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3610.2, webStorageEnabled: true}
+Session ID: 49156250c5e68c0e0de464f0ccabafde
+*** Element info: {Using=xpath, value=//button[contains(text(),'NO THANKS')]}
+11-21-18-15-26-17 [main] INFO  resources.BaseClass - removing a subscription pop-up by clicking 'no thanks' button
+11-27-18-19-13-49 [main] INFO  resources.BaseClass - removing a subscription pop-up by clicking 'no thanks' button
+11-27-18-19-14-23 [main] ERROR resources.BaseClass - pop-up message was not displayed no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(),'NO THANKS')]"}
+  (Session info: chrome=72.0.3610.2)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-R8M5NJD', ip: '192.168.101.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\Pitoshka\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60787}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3610.2, webStorageEnabled: true}
+Session ID: 0503d8b2b8c8831e878aecfb58254d22
+*** Element info: {Using=xpath, value=//button[contains(text(),'NO THANKS')]}
+11-27-18-19-14-52 [main] INFO  resources.BaseClass - removing a subscription pop-up by clicking 'no thanks' button
+11-27-18-19-14-59 [main] INFO  resources.BaseClass - WebDriver is initialized
+11-27-18-19-15-09 [main] INFO  resources.BaseClass - Navigating to landing page
+11-27-18-19-15-11 [main] INFO  resources.BaseClass - removing a subscription pop-up by clicking 'no thanks' button
+11-27-18-19-15-11 [main] INFO  resources.BaseClass - Test case failed
