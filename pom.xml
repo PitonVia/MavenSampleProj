@@ -43,6 +43,28 @@
   
  
   <dependencies>
+    <!-- This is required to integrate Cucumber with TestNG for the testRunner to run the script -->
+    <!-- https://mvnrepository.com/artifact/info.cukes/cucumber-testng -->
+<dependency>
+    <groupId>info.cukes</groupId>
+    <artifactId>cucumber-testng</artifactId>
+    <version>1.2.5</version>
+</dependency>
+    
+    <!-- The first 2 dependencies are required for Cucumber -->
+    <!-- https://mvnrepository.com/artifact/info.cukes/cucumber-java -->
+<dependency>
+    <groupId>info.cukes</groupId>
+    <artifactId>cucumber-java</artifactId>
+    <version>1.2.5</version>
+</dependency> 
+<!-- https://mvnrepository.com/artifact/info.cukes/cucumber-junit -->
+<dependency>
+    <groupId>info.cukes</groupId>
+    <artifactId>cucumber-junit</artifactId>
+    <version>1.2.5</version>
+    <scope>test</scope>
+</dependency>
     
     <!-- this is required for the FileUtils class when copying files -->
     <!-- https://mvnrepository.com/artifact/commons-io/commons-io -->

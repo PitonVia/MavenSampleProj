@@ -5,15 +5,15 @@
     <listener class-name="testPackage.Listeners"/>
     <listener class-name="resources.ExtentReporterNG"/>
   </listeners>
-  <test thread-count="5" name="Test Validating Title(failed)">
+  <test thread-count="5" name="Cucumber Script Validating Login(failed)">
     <classes>
-      <class name="testPackage.validateTitle">
+      <class name="cucumberTestRunner.TestRunner">
         <methods>
-          <include name="validateTitleTest"/>
-          <include name="initializeTest"/>
-          <include name="tearDown"/>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
         </methods>
-      </class> <!-- testPackage.validateTitle -->
+      </class> <!-- cucumberTestRunner.TestRunner -->
     </classes>
-  </test> <!-- Test Validating Title(failed) -->
+  </test> <!-- Cucumber Script Validating Login(failed) -->
 </suite> <!-- Failed suite [Suite] -->

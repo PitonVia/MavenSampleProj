@@ -1,12 +1,10 @@
 package testPackage;
 
 import java.io.IOException;
-import java.util.NoSuchElementException;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
-import org.openqa.selenium.By.ById;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
@@ -48,11 +46,6 @@ public class validateLogin extends BaseClass {
 		} catch (org.openqa.selenium.NoSuchElementException e) {
 			log.error("pop-up message was not displayed " + e.getMessage());
 		}
-		
-/*		// removing a subscription pop-up by clicking 'no thanks' button
-		Thread.sleep(1500);
-		driver.navigate().refresh();
-		Thread.sleep(2000);*/
 				
 		LandingPage landPg = new LandingPage(driver);
 		landPg.getLogin().click(); // invokes method to click on the login button

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  
+  <!-- to enable screenshot taking for all failed tests -->
+  <listeners>
+  	<listener class-name="testPackage.Listeners"/>
+  </listeners>
+  
+  	<listeners>
+		<listener class-name="testPackage.Listeners"/>  <!-- for Listeners -->
+		<listener class-name="resources.ExtentReporterNG"/>  <!-- for extent reports -->
+	</listeners>
+  
+   <test thread-count="5" name="Cucumber Script Validating Login">
+    <classes>
+      <class name="cucumberTestRunner.TestRunner"/>
+    </classes>
+  </test>
+             
+</suite> <!-- Suite -->

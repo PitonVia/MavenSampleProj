@@ -9,20 +9,49 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Suite</th></tr>
-<tr><td><a href="#t0">Test Validating Login</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">79,645</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">Validating NavBar</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">18,747</td><td></td><td></td></tr>
-<tr><td><a href="#t2">Test Validating Title</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">19,115</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">3</th><th class="num">0</th><th class="num attn">1</th><th class="num">117,507</th><th colspan="2"></th></tr>
+<tr><td><a href="#t0">Cucumber Script Validating Login</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">59,373</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test Validating Login &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">testPackage.validateLogin</td><td><a href="#m0">validateLoginTest</a></td><td rowspan="2">1543364013549</td><td rowspan="2">33272</td></tr><tr class="passedeven"><td><a href="#m1">validateLoginTest</a></td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">Validating NavBar &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testPackage.validateNavBar</td><td><a href="#m2">validateNavBarTest</a></td><td rowspan="1">1543364091313</td><td rowspan="1">1487</td></tr></tbody>
-<tbody id="t2"><tr><th colspan="4">Test Validating Title &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testPackage.validateTitle</td><td><a href="#m3">validateTitleTest</a></td><td rowspan="1">1543364109584</td><td rowspan="1">1585</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Cucumber Script Validating Login &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">cucumberTestRunner.TestRunner</td><td><a href="#m0">feature</a></td><td rowspan="1">1545355260400</td><td rowspan="1">58762</td></tr></tbody>
 </table>
-<h2>Test Validating Login</h2><h3 id="m0">testPackage.validateLogin#validateLoginTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>nonrestricteduser@qw.com</td><td>12345</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">testPackage.validateLogin#validateLoginTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>restricteduser@qw.com</td><td>56789</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Validating NavBar</h2><h3 id="m2">testPackage.validateNavBar#validateNavBarTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Test Validating Title</h2><h3 id="m3">testPackage.validateTitle#validateTitleTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [FEATURED COURSES123] but found [FEATURED COURSES]
-	at testPackage.validateTitle.validateTitleTest(validateTitle.java:55)
-... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Cucumber Script Validating Login</h2><h3 id="m0">cucumberTestRunner.TestRunner#feature</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Application Login</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">cucumber.runtime.CucumberException: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;search-courses&quot;}
+  (Session info: chrome=73.0.3642.0)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-R8M5NJD&apos;, ip: &apos;192.168.101.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\Pitoshka\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:59627}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3642.0, webStorageEnabled: true}
+Session ID: 6ce4165332bbfe40c164c04e95ec0e21
+*** Element info: {Using=id, value=search-courses}
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;search-courses&quot;}
+  (Session info: chrome=73.0.3642.0)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-R8M5NJD&apos;, ip: &apos;192.168.101.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\Pitoshka\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:59627}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3642.0, webStorageEnabled: true}
+Session ID: 6ce4165332bbfe40c164c04e95ec0e21
+*** Element info: {Using=id, value=search-courses}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:368)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at pageObjects.PortalHome.getSearchCoursesBox(PortalHome.java:22)
+	at stepDefinitions.LoginStepDefinitions.verify_that_user_successfully_logs_in(LoginStepDefinitions.java:85)
+	at ✽.Then Verify that user successfully logs in(src/test/java/features/Login.feature:8)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
